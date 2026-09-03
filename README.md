@@ -39,4 +39,19 @@ dependencies.
 If the script stays in the project folder, it finds the project automatically
 and does not ask for its path.
 
+## Windows desktop shortcut
+Use a Windows shortcut to launch the batch file from the cloned project.
+
+1. Open the cloned project folder in File Explorer.
+2. Right-click `run_barcode_generator.bat`.
+3. Select **Show more options** if Windows displays the compact menu.
+4. Select **Send to**, then **Desktop (create shortcut)**.
+5. Double-click the new Desktop shortcut to start the app.
+
+You can also right-click and drag `run_barcode_generator.bat` to the Desktop,
+release the mouse button, and select **Create shortcuts here**.
+
+This click-based method creates a Windows `.lnk` shortcut rather than an NTFS
+symbolic link, and does not require administrator permissions.
+
 ![BarcodeGenerator Screenshot](assets/screenshot.png)
