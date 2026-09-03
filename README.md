@@ -27,4 +27,16 @@ uv run --locked main.py
 
 The above command starts the webapp. **Dont close the terminal!**
 
+## Windows desktop launcher
+The `run_barcode_generator.bat` script starts the app with the locked
+dependencies.
+
+1. Clone this repository on the Windows computer.
+2. Copy `run_barcode_generator.bat` to the Desktop.
+3. Double-click the script and enter the full path to the cloned project folder.
+4. Keep the terminal open and open `http://127.0.0.1:8050` in a browser.
+
+If the script stays in the project folder, it finds the project automatically
+and does not ask for its path.
+
 ![BarcodeGenerator Screenshot](assets/screenshot.png)
