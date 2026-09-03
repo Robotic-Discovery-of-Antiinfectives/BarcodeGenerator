@@ -22,7 +22,7 @@ Generates two CSV files containing 10 columns each.
 ## Usage
 Change directory to BarcodeGenerator and run in terminal:
 ```Sh
-uv run main.py
+uv run --locked main.py
 ```
 
 The above command starts the webapp. **Dont close the terminal!**

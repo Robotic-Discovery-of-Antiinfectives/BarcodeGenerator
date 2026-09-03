@@ -24,11 +24,11 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "dash", specifier = ">=4.1.0" },
-    { name = "dash-bootstrap-components", specifier = ">=2.0.4" },
-    { name = "pandas", specifier = ">=3.0.2" },
-    { name = "python-barcode", specifier = ">=0.16.1" },
-    { name = "waitress", specifier = ">=3.0.2" },
+    { name = "dash", specifier = "==4.1.0" },
+    { name = "dash-bootstrap-components", specifier = "==2.0.4" },
+    { name = "pandas", specifier = "==3.0.2" },
+    { name = "python-barcode", specifier = "==0.16.1" },
+    { name = "waitress", specifier = "==3.0.2" },
 ]
 
 [[package]]
