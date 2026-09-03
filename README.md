@@ -1,4 +1,6 @@
 # BarcodeGenerator
+![BarcodeGenerator Screenshot](assets/screenshot.png)
+
 Intended to be used with AnalytikJena's barcode printer program.
 
 Generates two CSV files containing 10 columns each.
@@ -53,5 +55,3 @@ release the mouse button, and select **Create shortcuts here**.
 
 This click-based method creates a Windows `.lnk` shortcut rather than an NTFS
 symbolic link, and does not require administrator permissions.
-
-![BarcodeGenerator Screenshot](assets/screenshot.png)
